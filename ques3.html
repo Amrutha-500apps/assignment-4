@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<htm>
+<h2>display time</h2>
+<p id="at"></p>
+<body>
+    <script>
+           function timer(){
+               let dateTime = new Date();
+               let time = dateTime.toLocaleTimeString();
+               document.getElementById("at").innerHTML=time;
+               setTimeout(timer,5000);
+           }
+           timer();
+    </script>
+</body>    
+</htm>
