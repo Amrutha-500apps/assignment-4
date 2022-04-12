@@ -1,0 +1,20 @@
+<template>
+<div>
+<p>msg:{{message}}</p>
+<p>name:{{name}}</p>
+</div>
+</template>
+<script>
+export default {
+    name:"CheemS",
+       props:{
+           message:String,
+           name:String
+       },
+      methods:{
+    fun(){
+      alert("sucessfull");
+    }
+  }
+  }
+</script>
