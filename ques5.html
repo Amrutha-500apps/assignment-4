@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Question-5</h3>
+<p id="demo"></p>
+<script>
+function mainfun(fullname){
+document.getElementById("demo").innerHTML="FullName:"+fullname;
+}
+function fun1(firstname,lastname,mycall){
+let fullname=firstname+lastname;
+mycall(fullname);
+}
+fun1("Mantra","Technologies",mainfun);
+</script>
+</body>
+</html>
